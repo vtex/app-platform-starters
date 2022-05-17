@@ -39,12 +39,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Turborepo local server using GH artifacts as cache
-        uses: felixmosh/turborepo-gh-artifacts@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          server-token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Lint
         run: pnpm lint
 
