@@ -1,0 +1,24 @@
+{
+  "name": "app-platform-starters",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "starters/*"
+  ],
+  "scripts": {
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@6.32.6",
+  "dependencies": {
+  }
+}
