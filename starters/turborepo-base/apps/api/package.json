@@ -8,8 +8,7 @@
     "build": "tsc",
     "dev": "PORT=3010 ts-node ./src/server.ts",
     "start": "node ./dist/server.js",
-    "prod": "npm run build && npm run start",
-    "postinstall": "tsc"
+    "prod": "npm run build && npm run start"
   },
   "author": "vtex",
   "license": "ISC",
