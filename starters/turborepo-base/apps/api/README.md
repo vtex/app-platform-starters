@@ -1,6 +1,6 @@
 # Typescript Express API Boilerplate
 
-> Simple boilerplate code for a Express based REST API.
+> Simple boilerplate code for an Express based REST API.
 
 ## Features
 
@@ -37,4 +37,4 @@ Execute in command line `sh exec.sh` to run the Docker in Linux, or `.\exec.ps1`
 
 ## License
 
-This project is licensed under the MIT license. See the [LICENSE](LICENSE.txt) file for more info.
+This project is licensed under the MIT license.
