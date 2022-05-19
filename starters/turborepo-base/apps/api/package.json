@@ -6,7 +6,7 @@
     "docker-build": "docker build -t api .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "PORT=3010 ts-node ./src/server.ts",
+    "dev": "NODE_ENV=dev PORT=3010 nodemon ./src/server.ts",
     "start": "node ./dist/server.js",
     "prod": "npm run build && npm run start"
   },
@@ -26,6 +26,7 @@
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
     "prettier": "^2.6.2",
     "ts-node": "^10.7.0"
   }
