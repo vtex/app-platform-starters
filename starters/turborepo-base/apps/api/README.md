@@ -1,6 +1,14 @@
-# Express API
+# Typescript Express API Boilerplate
 
-This sample demonstrates a simple Express API
+> Simple boilerplate code for a Express based REST API.
+
+## Features
+
+- CORS
+- Logger
+- JSON Error handler
+- Modular Router
+- Component Folder Structure
 
 ## Getting Started
 
@@ -18,7 +26,8 @@ The API will be served at `http://localhost:3010`.
 The sample includes these endpoints:
 
 **GET** /api/public
-* An unprotected endpoint which returns a message on success.
+
+- An unprotected endpoint which returns a message on success.
 
 ## Running the Sample With Docker
 

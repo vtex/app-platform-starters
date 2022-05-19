@@ -6,6 +6,6 @@ ADD package.json /home/app
 RUN npm install
 ADD . /home/app
 
-CMD ["npm", "start"]
+CMD ["npm", "prod"]
 
 EXPOSE 3010
