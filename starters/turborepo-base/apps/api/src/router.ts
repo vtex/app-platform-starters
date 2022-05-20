@@ -4,7 +4,7 @@ import apiRoutes from './api/routes'
 const router = express.Router()
 
 // this is a global route
-router.get('/health', function(req, res) {
+router.get('/health', function (req, res) {
   res.sendStatus(200)
 })
 
