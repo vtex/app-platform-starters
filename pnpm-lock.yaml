@@ -16,6 +16,7 @@ importers:
     specifiers:
       '@types/jest': ^27.5.1
       '@types/supertest': ^2.0.12
+      husky: ^8.0.0
       jest: ^28.1.0
       prettier: latest
       supertest: ^6.2.3
@@ -24,6 +25,7 @@ importers:
     devDependencies:
       '@types/jest': 27.5.1
       '@types/supertest': 2.0.12
+      husky: 8.0.1
       jest: 28.1.0
       prettier: 2.6.2
       supertest: 6.2.3
